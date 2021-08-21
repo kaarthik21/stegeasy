@@ -14,7 +14,7 @@ def ENCODER():
     x = 0
     y = 0
     for pix in EDIT(new_image.getdata(), data):
-        # Putting modified pixels in the new image
+        # Edit the pixels to add the string
         new_image.putpixel((x, y), pix)
         # putpixel is used to access any pixel in an image with (x,y)
         if (x == x_size - 1):
