@@ -104,7 +104,7 @@ def EDIT(pix, data):
 
 # main Function
 def main():
-    print("\n******************* Welcome to Steganography ********************\n")
+    print("\n******************* STEGEASY ********************\n")
     n = int(input("Press 1 to ENCODE a text into image\nPress 2 to DECODE an image containing hidden text\n"))
     if (n == 1):
         ENCODER()
